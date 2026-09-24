@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/education-data",
   "title": "Education Data",
   "description": "Education Data MCP — US K-12 schools, districts, funding and child poverty.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/education-data",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-education-data",
