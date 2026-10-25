@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-education-data",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Education Data MCP — US K-12 schools, districts, funding and child poverty.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-8d5767d5fd4cc59b27e2af4a213f9ecfb4e5c16856c63412fb0f1f50aa2d0197",
-    "sourceCommit": "5749f83c0ea115fab4c0c0ef04b66b05f2507d67"
+    "sourceHash": "v1-d756dbfefc4c3e0de7f4486f0acc83be185546644494d6f6adc4e843dda9a2a3",
+    "sourceCommit": "29fb434ca65fe0f61191f19c3502f583f5fb99d7"
   }
 }
