@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-education-data",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Education Data MCP — US K-12 schools, districts, funding and child poverty.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-education-data": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "education-data"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-education-data.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/education-data",
   "pipeworx": {
-    "sourceHash": "v1-d756dbfefc4c3e0de7f4486f0acc83be185546644494d6f6adc4e843dda9a2a3",
-    "sourceCommit": "29fb434ca65fe0f61191f19c3502f583f5fb99d7"
+    "mode": "gateway",
+    "slug": "education-data",
+    "gatewaySlug": "education-data",
+    "sourceHash": "v1-ad4f2847f09e8bfc5d887ea303b4edb129d082628a9eed5031519ea8abc2d44f",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }
